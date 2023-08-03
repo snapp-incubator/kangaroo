@@ -17,7 +17,7 @@ import (
 )
 
 // prefix indicates environment variables prefix.
-const prefix = "<projectname>__"
+const prefix = "<project-name>__"
 
 // Config holds all configurations.
 type Config struct {

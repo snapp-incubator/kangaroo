@@ -16,8 +16,8 @@ const ExitFailure = 1
 func Execute() {
 	//nolint: exhaustruct
 	root := &cobra.Command{
-		Use:     "koochooloo",
-		Short:   "Make your URLs shorter (smaller) and more memorable",
+		Use:     "<project-name>",
+		Short:   "<project-description>",
 		Version: versioninfo.Short(),
 	}
 
